@@ -1,10 +1,10 @@
-
+Enter a credit card number with only digits. Prompt user if they enter a symbol such as '-' or characters. 
+Return the credit card type (MasterCard, Visa, or American Express) if card is valid. 
 
 num = raw_input('Number: ')
 while num.isdigit()!=True:
     num = raw_input('Retry: ')
-else:
-    pass
+
 
 #Use Luhn's algorithm (checksum) to check if credit card number is syntactically valid
 
